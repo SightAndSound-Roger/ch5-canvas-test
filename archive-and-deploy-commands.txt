@@ -1,0 +1,3 @@
+ch5-cli archive --project-name canvas-test --directory-name ./src/ --output-directory ./dist/
+
+ch5-cli deploy --deviceHost 192.168.1.128 --deviceType touchscreen -p ./dist/canvas-test.ch5z
